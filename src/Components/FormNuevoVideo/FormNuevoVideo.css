@@ -1,0 +1,12 @@
+.container {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+
+  background: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 2vh;
+}

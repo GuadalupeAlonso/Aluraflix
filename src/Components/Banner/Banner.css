@@ -1,0 +1,53 @@
+.banner-container {
+  display: flex;
+  width: 1440px;
+  height: 832px;
+  background-image: url("../../imgs/fondo_banner.png");
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.banner-titulos {
+  display: flex;
+  width: 1400px;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.banner-titulo {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.banner-titulo div {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: cyan;
+  width: 200px;
+  height: 80px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.banner-titulo h2 {
+  color: white;
+}
+
+.banner-titulo p {
+  color: gray;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 320px) {
+  .banner-container {
+    width: 320px;
+    justify-content: center;
+  }
+
+  .banner-imagen {
+    visibility: hidden;
+  }
+}
